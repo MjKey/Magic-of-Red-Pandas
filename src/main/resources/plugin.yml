@@ -5,3 +5,18 @@ api-version: '1.21'
 api: '1.21'
 authors: [ MjKey ]
 depend: [Oraxen, ProtocolLib, PlaceholderAPI]
+
+commands:
+  takelifepos:
+    description: Установить позицию забора жизни
+    usage: /<command>
+    permission: magicredpandas.setpos
+  givelifepos:
+    description: Установить позицию передачи жизни
+    usage: /<command>
+    permission: magicredpandas.setpos
+
+permissions:
+  magicredpandas.setpos:
+    description: Позволяет устанавливать точки обмена жизнями
+    default: op

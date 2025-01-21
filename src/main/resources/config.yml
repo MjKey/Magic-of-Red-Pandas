@@ -1,0 +1,15 @@
+# Время кулдауна для обычного обмена жизнями (в минутах)
+exchange-cooldown: 5
+
+# Время кулдауна для игроков с бесконечными жизнями (в часах)
+infinite-lives-cooldown: 24
+
+# Сообщения
+messages:
+  prefix: "§7[§cМКП§7]§f"
+  cooldown: "%prefix% §fВы сможете обменяться жизнями через: %time%"
+  exchange-success-take: "%prefix% §fВы получили жизнь от игрока %player%"
+  exchange-success-give: "%prefix% §fВы передали жизнь игроку %player%"
+  no-permission: "%prefix% §fУ вас нет прав на использование этой команды!"
+  player-only: "%prefix% §fЭта команда только для игроков!"
+  position-set: "%prefix% §fПозиция %type% установлена!" 

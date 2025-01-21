@@ -1,0 +1,4 @@
+# Конфигурация локаций для обмена жизнями
+locations:
+  take-life: null
+  give-life: null 
