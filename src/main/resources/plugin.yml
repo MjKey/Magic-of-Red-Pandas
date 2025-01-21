@@ -1,0 +1,5 @@
+name: MagicRedPandas
+version: '1.0-SNAPSHOT'
+main: ru.mjkey.MagicRedPandas.Main
+api-version: '1.21'
+authors: [ MjKey ]
